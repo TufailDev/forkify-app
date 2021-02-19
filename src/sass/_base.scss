@@ -32,7 +32,50 @@ html {
   font-size: 62.5%;
 
   @media only screen and (max-width: $bp-medium) {
-    font-size: 50%;
+    font-size: 31.25%;
+
+    .container {
+      min-height: 100vh;
+      max-width: 100%;
+      margin: 0;
+      border-radius: 0;
+      box-shadow: 0;
+    }
+
+    .header {
+      flex: 1;
+
+      &__logo {
+        margin-left: 2rem;
+        height: 3.5rem;
+      }
+    }
+
+    .search {
+      border-radius: 4rem;
+      &__field {
+        padding: 1px;
+      }
+    }
+
+    .btn svg {
+      height: 2rem;
+      width: 2rem;
+    }
+
+    .nav {
+      margin-right: 0;
+    }
+
+    .recipe {
+      &__details {
+        padding: 6rem 3rem 3.5rem;
+      }
+
+      &__ingredients {
+        padding: 0;
+      }
+    }
   }
 }
 
