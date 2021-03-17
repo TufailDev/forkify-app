@@ -1,5 +1,5 @@
-forkify Project
+# Forkify
 
-Recipe application with custom recipe uploads.
+## Recipe application with custom recipe uploads.
 
-You can check it out at https://forkify-tufail.netlify.app
+### You can [check it out](https://forkify-tufail.netlify.app).
